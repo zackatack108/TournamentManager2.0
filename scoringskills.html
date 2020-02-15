@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Scoring Skills</title>
+    <link rel="stylesheet" href="css/reset.css"/>    
+    <link rel="stylesheet" href="css/skills.css"/>
+    <link rel="stylesheet" href="css/index.css"/>
+    <script src="js/header.js"></script>
+</head>
+
+<body>
+<header>
+    <script>writeNavBar("scoring", "scoringskills")</script>
+</header>
+
+<article>
+
+    <section class="fieldcontrol">
+
+        <h2>Skills Field Control</h2>
+    
+        <fieldset class="onField">
+            <legend>On Field</legend>
+            <h1 id="skillstype">Auton</h1>
+            <p class="button" id="queueProgramming">Queue Programming</p>
+            <p class="button" id="queueDrivers">Queue Drivers</p>
+        </fieldset>
+        
+        <fieldset class="control">
+            <p class="button" id="startSkills">Start Skills</p>
+            <p class="button" id="endSkills">End Early</p>
+            <p class="button" id="resetSkills">Reset Timer</p>   
+        </fieldset>
+
+        <fieldset class="fset">
+            <legend>Field Set</legend>
+            <select>
+                <option>Field1</option>
+            </select>
+        </fieldset>
+        
+        <fieldset class="timer">
+            <legend>Timer</legend>
+            <h1 id="stimer">1:00</h1>
+        </fieldset>
+
+        <fieldset class="soundeffects">
+            <legend>Sound Effects</legend>
+            <label for="skillsSoundEnable"><input type="radio" name="sound" id="skillsSoundEnable"> Enable </label>
+            <label for="skillsSoundDisable"><input type="radio" name="sound" id="skillsSoundDisable"> Disable </label>
+        </fieldset>
+    </section>
+
+</article>
+
+</body>
+
+</html>
