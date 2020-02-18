@@ -52,6 +52,43 @@
         </fieldset>
     </section>
 
+    <section class="scoring">
+
+        <form>
+
+            <fieldset>
+    
+                <legend>Skills Scoring</legend>
+                <span>Team Number
+                    <select>
+                        <option>Team Number</option>
+                    </select>
+                </span><br>
+
+                <input type="radio" name="gamemode" id="programming">
+                <label for="programming">Programming</label><br>
+
+                <input type="radio" name="gamemode" id="drivers">
+                <label for="drivers">Drivers</label><br>
+
+                <label for="cubes">Scored Cubes:</label>
+                <input type="number" id="cubes" name="cubes" min="0" value="0"><br>
+
+                <label for="towers">Towers Scored:</label>
+                <input type="number" id="towers" name="towers" min="0" value="0"><br>
+
+                <label for="finalscore">Final Score: </label>
+                <p name="finalscore">0</p>
+
+                <input type="reset" id="resetscore" value="Reset Score">
+                <input type="button" id="savescore" value="Save Score">
+
+            </fieldset>
+    
+        </form>
+
+    </section>
+
 </article>
 
 </body>

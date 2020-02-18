@@ -1,7 +1,7 @@
 article {
     margin-top: 3%;
     display: grid;
-    grid-template-columns: auto;
+    grid-template-columns: 700px 700px;
     grid-template-rows: auto;
     grid-template-areas: 'a b';
     justify-content: center;
@@ -12,6 +12,10 @@ section {
     border: 2px solid black;
     padding: 4%;
     background-color: #e0e0e0;
+}
+
+.scoring {
+    grid-area: b;
 }
 
 .fieldcontrol {
@@ -39,7 +43,7 @@ section {
 
 .control {
     grid-area: e;
-    margin-top: 1em;
+    margin-top: 10.5%;
 }
 
 .fset {
@@ -94,5 +98,15 @@ fieldset {
     color: black;
 }
 
+form fieldset {
+    padding: 5% 0% 5% 15%;
+}
 
+form span {
+    font-size: 30px;
+    text-align: left;
+}
 
+.scoring input[type="radio"] {
+    align-content: left;
+}
