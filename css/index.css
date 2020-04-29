@@ -1,3 +1,4 @@
+/*https://paletton.com/#uid=74e1q0kqUshbcKrjNvouxkLHZcg*/
 body{
     background-color: white;
 }
@@ -9,7 +10,7 @@ body{
 }
 
 .pagenav {
-    background-color: #595959;
+    background-color: #060644;
     padding-top: 0.5%;
     padding-bottom: 0.5%;
     padding-left: 1%;
@@ -24,7 +25,7 @@ li {
     display: inline-block;
     padding: 0.3%;
     font-size: 20pt;
-    border-radius: 5pt;
+    border-radius: 50pt;
 }
 
 li a {
@@ -33,7 +34,7 @@ li a {
 }
 
 li:hover, .button:hover{
-    background-color: #898A8D;
+    background-color: #9693A0;
 }
 
 li:hover a, .button:hover{
@@ -41,7 +42,7 @@ li:hover a, .button:hover{
 }
 
 .pageselect {
-    background-color: #D62828;
+    background-color: #A50c08;
 }
 
 .pageselect a {
@@ -53,8 +54,15 @@ li:hover a, .button:hover{
     padding-top: 1%;
     padding-bottom: 1%;
     font-size: 20pt;
-    border-radius: 5pt;
-    background-color: #D62828;
+    border-radius: 50pt;    
     text-align: center;
     color: white;
+}
+
+.bgRed {
+    background-color: #bc2626;
+}
+
+.bgGrey {
+    background-color: #9693A0;
 }

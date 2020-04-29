@@ -3,10 +3,16 @@
 
 <head>
     <title>Scoring Skills</title>
+
+    <!--css imports-->
     <link rel="stylesheet" href="css/reset.css"/>    
     <link rel="stylesheet" href="css/skills.css"/>
     <link rel="stylesheet" href="css/index.css"/>
+
+    <!--Javascript imports-->
+    <script src="http://code.jquery.com/jquery-3.1.0.min.js"></script>
     <script src="js/header.js"></script>
+    <script src="js/fieldControl.js"></script>
 </head>
 
 <body>
@@ -22,15 +28,15 @@
     
         <fieldset class="onField">
             <legend>On Field</legend>
-            <h1 id="skillstype">Auton</h1>
-            <p class="button" id="queueProgramming">Queue Programming</p>
-            <p class="button" id="queueDrivers">Queue Drivers</p>
+            <h1 id="skillstype">Auto</h1>
+            <p class="button bgGrey" id="queueProgramming">Queue Autonomous</p>
+            <p class="button bgRed" id="queueDrivers">Queue Drivers</p>
         </fieldset>
         
         <fieldset class="control">
-            <p class="button" id="startSkills">Start Skills</p>
-            <p class="button" id="endSkills">End Early</p>
-            <p class="button" id="resetSkills">Reset Timer</p>   
+            <p class="button bgRed" id="startMatch">Start Skills</p>
+            <p class="button bgGrey" id="stopMatch">End Early</p>
+            <p class="button bgGrey" id="resetMatch">Reset Timer</p>   
         </fieldset>
 
         <fieldset class="fset">
@@ -42,7 +48,7 @@
         
         <fieldset class="timer">
             <legend>Timer</legend>
-            <h1 id="stimer">1:00</h1>
+            <h1 id="timer">1:00</h1>
         </fieldset>
 
         <fieldset class="soundeffects">

@@ -11,7 +11,7 @@ article {
 section {
     border: 2px solid black;
     padding: 4%;
-    background-color: #e0e0e0;
+    background-color: #D9D8DF;
 }
 
 .scoring {
@@ -68,7 +68,7 @@ legend {
     font-size: 30px;
     border: 2px solid black;
     padding: 5px;
-    background-color: #888b8d;
+    background-color: #130247;
     color: white;
 }
 
