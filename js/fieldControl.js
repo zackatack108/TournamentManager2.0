@@ -57,7 +57,7 @@ function timeInterval() {
 
        }, 1000);
 
-    if(document.title == "Scoring Skills") {
+    if(time == "0:00" && document.title == "Scoring Skills") {
         time = "1:00";
         $("#timer").html(time);
     }
